@@ -11,7 +11,7 @@ title                    : "Bob Yantosca | Harvard University"
 title_separator          : "-"
 name                     : &name "Bob Yantosca"
 description              : &description "Senior Software Engineer,
-  Harvard John A. Paulson School of Engineering and Applied Sciences"
+  Harvard School of Engineering"
 url                      : "https://yantosca.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "yantosca/yantosca.github.io"
@@ -82,17 +82,19 @@ analytics:
 # Site Author
 author:
   name             : "Bob Yantosca"
-  avatar           : "bob_y_profile.png"
+  avatar           : "profile.jpg"
   bio              : "More than 30 years experience in software
   development, debugging, project management, data analysis and
-  visualization, documentation, and technical support; Implementation of chemical tracer models (CTMs) for atmospheric chemistry applications; Integration of CTMs with Earth System Models (ESMs)." 
+  visualization, documentation, and technical support; Implementation
+  of chemical tracer models (CTMs) for atmospheric chemistry
+  applications; Integration of CTMs with Earth System Models (ESMs);
+  Senior member, GEOS-Chem Support Team" 
   location         : "Cambridge, MA, USA"
-  employer         : "[Harvard John A. Paulson School of Engineering
-  and Applied Sciences](https://seas.harvard.edu)"
+  employer         : "[Harvard School of Engineering](https://seas.harvard.edu)"
   pubmed           : 
-  googlescholar    : "http://yourfullgooglescholarurl.com"
+  googlescholar    : 
   email            : "yantosca@seas.harvard.edu"
-  researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
+  researchgate     : 
   uri              :
   bitbucket        : "yantosca"
   codepen          :
@@ -104,13 +106,13 @@ author:
   google_plus      :
   keybase          :
   instagram        :
-  impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
+  impactstory      : 
   lastfm           :
   linkedin         : "https://linkedin.com/in/bobyantosca/"
   orcid            : "http://orcid.org/yourorcidurl"
   pinterest        :
   soundcloud       :
-  stackoverflow    : # http://stackoverflow.com/users/123456/username
+  stackoverflow    : 
   steam            :
   tumblr           :
   twitter          : "BYantosca"
