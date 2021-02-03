@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Bob Yantosca / yantosca.github.io"
+title                    : "Bob Yantosca | Harvard University"
 title_separator          : "-"
 name                     : &name "Bob Yantosca"
 description              : &description "Senior Software Engineer,
@@ -60,7 +60,7 @@ yandex_site_verification :
 twitter:
   username               : &twitter "BYantosca"
 facebook:
-  username               : "bob.yantosca"
+  username               : &facebook "bob.yantosca"
   app_id                 :
   publisher              :
 og_image                 :  # Open Graph/Twitter default site image
@@ -81,36 +81,39 @@ analytics:
 
 # Site Author
 author:
-  name             : "Your Sidebar Name"
+  name             : "Bob Yantosca"
   avatar           : "profile.png"
-  bio              : "Your biography for the left-hand sidebar"
-  location         : "Location"
-  employer         :
-  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
+  bio              : "More than 30 years experience in software
+  development, debugging, project management, data analysis and
+  visualization, documentation, and technical support; Implementation of chemical tracer models (CTMs) for atmospheric chemistry applications; Integration of CTMs with Earth System Models (ESMs)." 
+  location         : "Cambridge, MA, USA"
+  employer         : "Harvard John A. Paulson School of Engineering
+  and Applied Sciences"
+  pubmed           : 
   googlescholar    : "http://yourfullgooglescholarurl.com"
-  email            :
+  email            : "yantosca@seas.harvard.edu"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
-  bitbucket        :
+  bitbucket        : "yantosca"
   codepen          :
   dribbble         :
   flickr           :
-  facebook         :
+  facebook         : "bob.yantosca"
   foursquare       :
-  github           : "academicpages"
+  github           : "yantosca"
   google_plus      :
   keybase          :
   instagram        :
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
-  linkedin         :
+  linkedin         : "https://linkedin.com/in/bobyantosca/"
   orcid            : "http://orcid.org/yourorcidurl"
   pinterest        :
   soundcloud       :
   stackoverflow    : # http://stackoverflow.com/users/123456/username
   steam            :
   tumblr           :
-  twitter          : "replacethistwitterhandle"
+  twitter          : "BYantosca"
   vine             :
   weibo            :
   xing             :
