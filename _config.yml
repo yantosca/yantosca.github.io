@@ -12,7 +12,7 @@ title_separator          : "-"
 name                     : &name "Bob Yantosca"
 description              : &description "Senior Software Engineer,
   Harvard John A. Paulson School of Engineering and Applied Sciences"
-url                      : https://yantosca.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : "https://yantosca.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "yantosca/yantosca.github.io"
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
@@ -82,13 +82,13 @@ analytics:
 # Site Author
 author:
   name             : "Bob Yantosca"
-  avatar           : "profile.png"
+  avatar           : "bob_y_profile.png"
   bio              : "More than 30 years experience in software
   development, debugging, project management, data analysis and
   visualization, documentation, and technical support; Implementation of chemical tracer models (CTMs) for atmospheric chemistry applications; Integration of CTMs with Earth System Models (ESMs)." 
   location         : "Cambridge, MA, USA"
-  employer         : "Harvard John A. Paulson School of Engineering
-  and Applied Sciences"
+  employer         : "[Harvard John A. Paulson School of Engineering
+  and Applied Sciences](https://seas.harvard.edu)"
   pubmed           : 
   googlescholar    : "http://yourfullgooglescholarurl.com"
   email            : "yantosca@seas.harvard.edu"
