@@ -61,14 +61,32 @@ redirect_from:
 * Project management
   * Trello
 
-# Publications
+# Current Responsibilities
+* Senior member, GEOS-Chem Support Team.
+* Serves on GEOS-Chem Steering Committee as Model Engineer.
+* Serves as Co-Investigator on several proposals.
+* Collaborates on various scientific projects.
+* Provides feedback and shares best practices with colleagues at other institutions
+  * EPA, NASA, NCAR, NOAA, + universities
+
+# Honors
+* Received the NASA Group Achievement Award for the ARCTAS mission (2009).
+* Admitted to Pi Lambda Theta (1996).
+* Received the Boston University Outstanding Teaching Fellow Award (1994).
+* Admitted to Phi Beta Kappa, Alpha of Ohio (1991).
+* Received a Case Alumni Association Scholarship (1989-1991).
+*  Received the Abraham Lincoln Fuller Prize for Excellence in the Study of Latin (1989).
+
+# Recent Publications
   <ul>{% for post in site.publications %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
   
-# Presentations
+# Recent Presentations
   <ul>{% for post in site.talks %}
     {% include archive-single-talk-cv.html %}
   {% endfor %}</ul>
-    
-# Service and leadership
+
+# Service and Leadership
+* Volunteer, Focolare Movement
+* Eucharistic Minister, Watertown (MA) Catholic Collaborative

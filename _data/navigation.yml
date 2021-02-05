@@ -3,9 +3,6 @@ main:
   - title: "CV"
     url: /cv/
 
-  - title: "Expertise"
-    url: /expertise/
-
   - title: "Projects"
     url: /projects/
 
@@ -18,5 +15,5 @@ main:
   - title: "Teaching"
     url: /teaching/  
   
-  - title: "About Me"
-    url: /about/
+  - title: "Personal"
+    url: /personal/
