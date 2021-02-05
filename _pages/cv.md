@@ -1,59 +1,74 @@
 ---
 layout: archive
-title: "CV"
+title: "Curriculum Vitae, Robert M. Yantosca"
 permalink: /cv/
 author_profile: true
 redirect_from:
   - /resume
 ---
 
-{% include base_path %}
+[Harvard John A. Paulson School of Engineering and Applied Sciences](http://seas.harvard.edu/) (Cambridge, MA, USA)<br />Email: yantosca [at] seas.harvard.edu<br />Phone: 1-617-496-9424
 
-Education
-======
-* B.S. in GitHub, GitHub University, 2012
-* M.S. in Jekyll, GitHub University, 2014
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
+# Professional Experience
 
-Work experience
-======
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+* Senior Software Engineer (2012-present)
+  * Harvard John A. Paulson School of Engineering and Applied Sciences
+* Software Engineer (2002-2012)
+  * Harvard John A. Paulson School of Engineering and Applied Sciences
+* Scientific Programmer (1996-2002)
+  * Harvard John A. Paulson School of Engineering and Applied Sciences
+* Summer Physics Instructor (1996)
+  * Quincy College (Quincy, MA)
+* Student Teacher (1996)
+  * Quincy High School (Quincy, MA)
+* Research Assistant (1994-1996)
+  * Center for Space Physics, Boston University (Boston, MA)
 
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
-  
-Skills
-======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+# Education
+* M.A.T. in Science Education, Boston University, 1996
+* M.A. in Astronomy, Boston University, 1994
+* B.S. in Astronomy, Case Western Reserve University, 1991
+  * with minor concentration in Classics
+* Diploma, Boston College High School, 1987
 
-Publications
-======
+# Expertise
+* 30+ years of experience in computer programming, data analysis, and visualization
+* Implementation of chemical tracer models (CTMs) for atmospheric chemistry applications
+* Integration of CTMs with Earth System Models (ESMs)
+* Benchmarking CTM performance with standard simulations
+* Creation of automatic forecasting and hindcasting systems to support of aircraft field campaigns
+* Providing documentation and technical support for CTM users
+* Co-developer of the GAMAP IDL and GCPy Python package for visualization of CTM output
+* Computing environments:
+  * GNU/Linux (including Linux desktop management), Windows, MacOS, SLURM scheduler
+* Programming Languages:
+  * Fortran, Python, Perl, bash, C, Javascript, IDL
+* Build systems
+  * CMake, GNU Make
+* Library installations
+  * Spack, ESMF, netCDF, HDF5
+* Parallel computing
+  * OpenMP, MPI
+* Source code management
+  * Git, Github, Bitbucket
+* Continuous integration
+  * Azure Pipelines, TravisCI
+  * Travis CI
+* Debugging
+  * gdb/cgdb, Totalview,
+*Website and Wiki
+  * Jekyll, HTML/CSS, Dreamweaver, MediaWiki, Confluence
+* Project management
+  * Trello
+
+# Publications
   <ul>{% for post in site.publications %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
   
-Talks
-======
+# Presentations
   <ul>{% for post in site.talks %}
     {% include archive-single-talk-cv.html %}
   {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+    
+# Service and leadership
