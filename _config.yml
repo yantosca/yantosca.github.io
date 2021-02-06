@@ -18,9 +18,9 @@ repository               : "yantosca/yantosca.github.io"
 teaser                   : "500x300.png"
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 160
-future                   : true
+future                   : false
 read_more                : "disabled" # if enabled, adds "Read more" links to excerpts
-talkmap_link             : true #change to true to add link to talkmap on talks page
+talkmap_link             : false #change to true to add link to talkmap on talks page
 comments:
   provider               : # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "custom"
   disqus:
@@ -88,19 +88,18 @@ author:
   employer         : "Harvard School of Engineering"
   email            : "yantosca@seas.harvard.edu"
   phone            : "1-617-496-9424"
-  googlescholar    : 
+  googlescholar    : "https://scholar.google.com/citations?hl=en&user=QsefF98AAAAJ"
   researchgate     : 
-  bitbucket        : "yantosca"
-  facebook         : "bob.yantosca"
+  facebook         : &facebook "bob.yantosca"
   foursquare       :
-  github           : "yantosca"
+  github           : &github "yantosca"
   instagram        :
-  linkedin         : "bobyantosca"
-  orcid            : "http://orcid.org/yourorcidurl"
+  linkedin         : &linkedin "bobyantosca"
+  orcid            : "https://orcid.org/0000-0003-3781-1870"
   stackoverflow    : 
   steam            :
   tumblr           :
-  twitter          : "BYantosca"
+  twitter          : &twitter "BYantosca"
   youtube          :
 
 
@@ -185,17 +184,17 @@ defaults:
     values:
       layout: single
       author_profile: true
-#  # _posts
-#  - scope:
-#      path: ""
-#      type: posts
-#    values:
-#      layout: single
-#      author_profile: true
-#      read_time: true
-#      comments: true
-#      share: true
-#      related: true
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: true
+      share: true
+      related: true
   # _publications
   - scope:
       path: ""
