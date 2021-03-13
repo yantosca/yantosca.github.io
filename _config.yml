@@ -15,7 +15,7 @@ description              : &description "Senior Software Engineer,
 url                      : "https://yantosca.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "yantosca/yantosca.github.io"
-teaser                   : "500x300.png"
+#teaser                   : "500x300.png"
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 160
 future                   : false

@@ -88,5 +88,9 @@ redirect_from:
   {% endfor %}</ul>
 
 # Service and Leadership
-* Volunteer, Focolare Movement
+* Volunteer of God, Focolare Movement
 * Eucharistic Minister, Watertown (MA) Catholic Collaborative
+
+# Personal
+* Citizenship: United States
+* Languages: English (native), Italian (fluent), Neapolitan (can understand)

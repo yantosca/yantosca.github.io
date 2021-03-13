@@ -21,7 +21,7 @@ In the fall & winter, I spend a lot of time following pro football ([Go Patriots
 
 ![Linux](/images/linux.jpg){:style="float:right; margin-right:25px; margin-left:25px; margin-bottom=40px"}
 
-Recently, I taught myself how to install a couple of different flavors of Linux onto older laptops.  I enjoy the challenge of reviving old machines.  The laptop I used to create this page now runs Ubuntu and uses half of the memory that it did when it was a Windows 10 PC.  They say that "Linux is only free if you don't value your time", and maybe that's true.  Nevertheless, I have been able to learn a lot in a very short time by trial-and-error, and researching the Internet for tips and tricks.  So I think it is time well spent.  See [my blog](/posts/) for some of my Linux posts.
+Recently, I taught myself how to install a couple of different flavors of Linux onto older laptops.  I enjoy the challenge of reviving old machines.  The laptop I used to create this page now runs Manjaro and uses half of the memory that it did when it was a Windows 10 PC.  They say that "Linux is only free if you don't value your time", and maybe that's true.  Nevertheless, I have been able to learn a lot in a very short time by trial-and-error, and researching the Internet for tips and tricks.  So I think it is time well spent.  See [my blog](/posts/) for some of my Linux posts.
 
 ![The Simpsons!](/images/simpsons.jpg){:style="float:left; margin-right:25px; margin-top:5px; margin-left:25px"}
 
