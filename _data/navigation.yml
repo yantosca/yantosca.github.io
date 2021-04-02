@@ -6,8 +6,9 @@ main:
   - title: "Projects"
     url: /projects/
 
-  - title: "Presentations"
-    url: /talks/    
+# Comment out for now
+#  - title: "Presentations"
+#    url: /talks/    
 
   - title: "Publications"
     url: /publications/    

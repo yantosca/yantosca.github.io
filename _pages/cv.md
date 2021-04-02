@@ -38,11 +38,11 @@ redirect_from:
 * Benchmarking CTM performance with standard simulations
 * Creation of automatic forecasting and hindcasting systems to support of aircraft field campaigns
 * Providing documentation and technical support for CTM users
-* Co-developer of the GAMAP IDL and GCPy Python package for visualization of CTM output
+* Co-developer of the GCPy (Python) and GAMAP (IDL) packages for visualization of CTM output
 * Computing environments:
   * GNU/Linux (including Linux desktop management), Windows, MacOS, SLURM scheduler
 * Programming Languages:
-  * Fortran, Python, Perl, bash, C, Javascript, IDL
+  * Fortran, Python, Perl, C, bash, Javascript, IDL
 * Build systems
   * CMake, GNU Make
 * Library installations
@@ -52,18 +52,18 @@ redirect_from:
 * Source code management
   * Git, Github, Bitbucket
 * Continuous integration
-  * Azure Pipelines, TravisCI
-  * Travis CI
+  * Microsoft Azure Dev Pipelines, TravisCI
 * Debugging
   * gdb/cgdb, Totalview,
-*Website and Wiki
-  * Jekyll, HTML/CSS, Dreamweaver, MediaWiki, Confluence
+* Website and Wiki
+  * Jekyll, Sphinx/ReadTheDocs, HTML/CSS, Dreamweaver, MediaWiki, Confluence
 * Project management
   * Trello
 
 # Current Responsibilities
 * Senior member, GEOS-Chem Support Team.
 * Serves on GEOS-Chem Steering Committee as Model Engineer.
+* Co-chairs the GEOS-Chem Software Engineering Working Group
 * Serves as Co-Investigator on several proposals.
 * Collaborates on various scientific projects.
 * Provides feedback and shares best practices with colleagues at other institutions
@@ -82,10 +82,10 @@ redirect_from:
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
   
-# Recent Presentations
-  <ul>{% for post in site.talks %}
-    {% include archive-single-talk-cv.html %}
-  {% endfor %}</ul>
+## Selected Presentations
+#  <ul>{% for post in site.talks %}
+#    {% include archive-single-talk-cv.html %}
+#  {% endfor %}</ul>
 
 # Service and Leadership
 * Volunteer of God, Focolare Movement
