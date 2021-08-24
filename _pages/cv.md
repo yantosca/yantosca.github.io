@@ -11,18 +11,23 @@ redirect_from:
 
 # Professional Experience
 
+_Harvard John A. Paulson School of Engineering and Applied Sciences_
+
 * Senior Software Engineer (2012-present)
-  * Harvard John A. Paulson School of Engineering and Applied Sciences
 * Software Engineer (2002-2012)
-  * Harvard John A. Paulson School of Engineering and Applied Sciences
 * Scientific Programmer (1996-2002)
-  * Harvard John A. Paulson School of Engineering and Applied Sciences
+
+_Quincy College (Quincy, MA)_
+
 * Summer Physics Instructor (1996)
-  * Quincy College (Quincy, MA)
+
+_Quincy High School (Quincy, MA)_
+
 * Student Teacher (1996)
-  * Quincy High School (Quincy, MA)
+
+_Center for Space Physics, Boston University (Boston, MA)_
+
 * Research Assistant (1994-1996)
-  * Center for Space Physics, Boston University (Boston, MA)
 
 # Education
 * M.A.T. in Science Education, Boston University, 1996
@@ -39,26 +44,60 @@ redirect_from:
 * Creation of automatic forecasting and hindcasting systems to support of aircraft field campaigns
 * Providing documentation and technical support for CTM users
 * Co-developer of the GCPy (Python) and GAMAP (IDL) packages for visualization of CTM output
-* Computing environments:
-  * GNU/Linux (including Linux desktop management), Windows, MacOS, SLURM scheduler
-* Programming Languages:
-  * Fortran, Python, Perl, C, bash, Javascript, IDL
-* Build systems
-  * CMake, GNU Make
-* Library installations
-  * Spack, ESMF, netCDF, HDF5
-* Parallel computing
-  * OpenMP, MPI
-* Source code management
-  * Git, Github, Bitbucket
-* Continuous integration
-  * Microsoft Azure Dev Pipelines, TravisCI
-* Debugging
-  * gdb/cgdb, Totalview,
-* Website and Wiki
-  * Jekyll, Sphinx/ReadTheDocs, HTML/CSS, Dreamweaver, MediaWiki, Confluence
-* Project management
-  * Trello
+	
+# Technology and Tools
+
+![](https://img.shields.io/badge/OS-Linux-informational?style=flat&logo=Linux&logoColor=white&color=0000ff)
+![](https://img.shields.io/badge/Shell-bash-0000ff)
+![](https://img.shields.io/badge/Shell-csh-0000ff)
+![](https://img.shields.io/badge/Shell-sh-0000ff)
+![](https://img.shields.io/badge/OS-MacOS-informational?style=flat&logo=macos&logoColor=white&color=0000ff)
+![](https://img.shields.io/badge/OS-Windows-informational?style=flat&logo=windows&logoColor=white&color=0000ff)
+
+![](https://img.shields.io/badge/Scheduler-Slurm-ccffff)
+![](https://img.shields.io/badge/Scheduler-PBS-ccffff)
+![](https://img.shields.io/badge/Scheduler-LSF-ccffff)
+![](https://img.shields.io/badge/Scheduler-GridEngine-ccffff)
+
+![](https://img.shields.io/badge/Code-Fortran-informational?style=flat&logo=fortran&logoColor=white&color=ffff00)
+![](https://img.shields.io/badge/Code-C-informational?style=flat&logo=C&logoColor=white&color=ffff00)
+![](https://img.shields.io/badge/Code-Python-informational?style=flat&logo=python&logoColor=white&color=ffff00)
+![](https://img.shields.io/badge/Code-Perl-informational?style=flat&logo=perl&logoColor=white&color=ffff00)
+![](https://img.shields.io/badge/Code-Make-informational?style=flat&logo=cmake&logoColor=white&color=ffff00)
+![](https://img.shields.io/badge/Code-Lisp-ffff00)
+![](https://img.shields.io/badge/Code-JavaScript-ffff00)
+
+![](https://img.shields.io/badge/Web-HTML-ff0000)
+![](https://img.shields.io/badge/Web-CSS-ff0000)
+![](https://img.shields.io/badge/Web-Jekyll-ff0000)
+![](https://img.shields.io/badge/Web-DreamWeaver-ff0000)
+
+![](https://img.shields.io/badge/Tools-Git-00ffff)
+![](https://img.shields.io/badge/Tools-Github-00ffff)
+![](https://img.shields.io/badge/Tools-gdb-00ffff)
+![](https://img.shields.io/badge/Tools-cgdb-00ffff)
+![](https://img.shields.io/badge/Tools-nco-00ffff)
+![](https://img.shields.io/badge/Tools-cdo-00ffff)
+![](https://img.shields.io/badge/Tools-TAU-00ffff)
+
+![](https://img.shields.io/badge/Doc-Sphinx-00aa00)
+![](https://img.shields.io/badge/Doc-ReadTheDocs-00aa00)
+![](https://img.shields.io/badge/Doc-ReST-00aa00)
+![](https://img.shields.io/badge/Doc-MarkDown-00aa00)
+![](https://img.shields.io/badge/Doc-MediaWiki-00aa00)
+![](https://img.shields.io/badge/Doc-DocuWiki-00aa00)
+![](https://img.shields.io/badge/Doc-pydoc-00aa00)
+![](https://img.shields.io/badge/Doc-Org Mode-00aa00)
+
+![](https://img.shields.io/badge/Editor-Emacs-ff00ff)
+![](https://img.shields.io/badge/Editor-nano-ff00ff)
+![](https://img.shields.io/badge/Editor-Notepad++-ff00ff)
+
+![](https://img.shields.io/badge/Apps-Google Docs-00ffff)
+![](https://img.shields.io/badge/Apps-Word-00ffff)
+![](https://img.shields.io/badge/Apps-Excel-00ffff)
+![](https://img.shields.io/badge/Apps-PowerPoint-00ffff)
+![](https://img.shields.io/badge/Apps-Outlook-00ffff)
 
 # Current Responsibilities
 * Senior member, GEOS-Chem Support Team.
@@ -77,20 +116,21 @@ redirect_from:
 * Received a Case Alumni Association Scholarship (1989-1991).
 *  Received the Abraham Lincoln Fuller Prize for Excellence in the Study of Latin (1989).
 
-# Recent Publications
-  <ul>{% for post in site.publications %}
+# Five Recent Publications
+  <ul>{% for post in site.publications reversed limit: 5 offset: 7 %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
   
-## Selected Presentations
-#  <ul>{% for post in site.talks %}
-#    {% include archive-single-talk-cv.html %}
-#  {% endfor %}</ul>
-
 # Service and Leadership
-* Volunteer of God, Focolare Movement
-* Eucharistic Minister, Watertown (MA) Catholic Collaborative
+* [Focolare Movement](https://focolare.us)
+  * Volunteer of God (vocation)
+* [Watertown (MA) Catholic Collaborative](https://stpatswatertown.org/)
+  * Eucharistic Minister
+  * St. Vincent de Paul Society
 
 # Personal
 * Citizenship: United States
-* Languages: English (native), Italian (fluent), Neapolitan (can understand)
+* Languages: 
+  * English (native) 
+  * Italian (fluent) 
+  * Neapolitan (can understand)
