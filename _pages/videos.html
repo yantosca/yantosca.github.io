@@ -1,0 +1,10 @@
+---
+layout: archive
+title: "Video tutorials"
+permalink: /videos/
+author_profile: true
+---
+
+{% for post in site.videos reversed %}
+  {% include archive-single-video.html %}
+{% endfor %}

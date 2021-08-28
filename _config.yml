@@ -89,14 +89,14 @@ author:
   email            : "yantosca@seas.harvard.edu"
   phone            : "1-617-496-9424"
   googlescholar    : "https://scholar.google.com/citations?hl=en&user=QsefF98AAAAJ"
-  researchgate     : 
+  researchgate     :
   facebook         : &facebook "bob.yantosca"
   foursquare       :
   github           : &github "yantosca"
   instagram        :
   linkedin         : &linkedin "bobyantosca"
   orcid            : "https://orcid.org/0000-0003-3781-1870"
-  stackoverflow    : 
+  stackoverflow    :
   steam            :
   tumblr           :
   twitter          : &twitter "BYantosca"
@@ -173,6 +173,9 @@ collections:
   teaching:
     output: true
     permalink: /:collection/:path/
+  videos:
+    output: true
+    permalink: /:collection/:path/
 
 
 # Defaults
@@ -210,6 +213,14 @@ defaults:
       type: talks
     values:
       layout: talk
+      author_profile: true
+      share: true
+  # _videos
+  - scope:
+      path: ""
+      type: videos
+    values:
+      layout: video
       author_profile: true
       share: true
   # _teaching
