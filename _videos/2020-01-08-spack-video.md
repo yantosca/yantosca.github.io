@@ -2,7 +2,7 @@
 title: "Spack tutorial #1: Building gfortran 9.2.0 on the AWS cloud"
 collection: videos
 type: "Youtube Video tutorial"
-permalink: /videos/2020-01-08-spack-1-video
+permalink: /videos/2020-01-08-spack-video
 date: 2020-01-08
 ---
 

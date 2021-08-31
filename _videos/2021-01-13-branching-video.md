@@ -3,7 +3,7 @@ title: "GEOS-Chem 13.0.0: Managing Branches beteween Superproject and Submodules
 collection: videos
 type: "Youtube Video tutorial"
 permalink: /videos/2021-01-13-branching-video
-date: 2021-08-10
+date: 2021-01-13
 ---
 
 <iframe width="745" height="418" src="https://www.youtube.com/embed/1fhI-HObyV4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
