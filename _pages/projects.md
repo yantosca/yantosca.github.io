@@ -1,6 +1,6 @@
 ---
 title: "Current Projects"
-excerpt: "Some things I am currently working on."
+excerpt: "Software development projects that I'm working on."
 author_profile: true
 permalink: /projects/
 ---
