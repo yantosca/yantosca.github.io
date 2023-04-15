@@ -102,7 +102,7 @@ _Center for Space Physics, Boston University (Boston, MA)_
 # Current Responsibilities
 * Senior member, GEOS-Chem Support Team.
 * Serves on GEOS-Chem Steering Committee as Model Engineer.
-* Co-chairs the GEOS-Chem Software Engineering Working Group
+* Co-chairs the GEOS-Chem Software Engineering Working Group.
 * Serves as Co-Investigator on several proposals.
 * Collaborates on various scientific projects.
 * Provides feedback and shares best practices with colleagues at other institutions
@@ -114,7 +114,7 @@ _Center for Space Physics, Boston University (Boston, MA)_
 * Received the Boston University Outstanding Teaching Fellow Award (1994).
 * Admitted to Phi Beta Kappa, Alpha of Ohio (1991).
 * Received a Case Alumni Association Scholarship (1989-1991).
-*  Received the Abraham Lincoln Fuller Prize for Excellence in the Study of Latin (1989).
+* Received the Abraham Lincoln Fuller Prize for Excellence in the Study of Latin (1989).
 
 # Five Recent Publications
   <ul>{% for post in site.publications reversed limit: 5 offset: 7 %}
@@ -126,7 +126,6 @@ _Center for Space Physics, Boston University (Boston, MA)_
   * Volunteer of God (vocation)
 * [Watertown (MA) Catholic Collaborative](https://stpatswatertown.org/)
   * Eucharistic Minister
-  * St. Vincent de Paul Society
 
 # Personal
 * Citizenship: United States
