@@ -9,7 +9,7 @@ date: 2023-02-22
 venue: 'Atm. Chem. Phys.'
 paperurl: 'https://doi.org/10.5194/acp-23-2465-2023'
 citation: 'Yang, L.H., D.J. Jacob, N.K. Colombi, S. Zhai, K.H. Bates,
-V. Shah, E. Beaudry, R.M. Yantosca, H. Lin, J.F. Brewer, H. Chong,
+V. Shah, E. Beaudry, <b>R.M. Yantosca</b>, H. Lin, J.F. Brewer, H. Chong,
 K.R. Travis, J.H. Crawford, L. Lamsal, J.-H. Koo, and J. Kim,,
 <i>Atmos. Chem. Phys.</i>, 23, 2465–2481, 2023.'
 ---
