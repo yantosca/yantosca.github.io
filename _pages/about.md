@@ -25,7 +25,7 @@ redirect_from:
    </a>
   </td>
   <td cellpadding="5" align="center" width="33%">
-   <a href="https://acmg.seas.harvard.edu" halign="center"> 
+   <a href="https://acmg.seas.harvard.edu" align="center"> 
     <img src="images/logo_medium.jpg" width="170" height="170" hspace="30" alt="ACMG logo">
    </a>
   </td>
