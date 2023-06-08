@@ -66,6 +66,7 @@ _Center for Space Physics, Boston University (Boston, MA)_
 ![](https://img.shields.io/badge/Code-Make-informational?style=flat&logo=cmake&logoColor=white&color=ffff00)
 ![](https://img.shields.io/badge/Code-Lisp-ffff00)
 ![](https://img.shields.io/badge/Code-JavaScript-ffff00)
+![](https://img.shields.io/badge/Code-Rust-ffff00)
 
 ![](https://img.shields.io/badge/Web-HTML-ff0000)
 ![](https://img.shields.io/badge/Web-CSS-ff0000)
@@ -73,7 +74,7 @@ _Center for Space Physics, Boston University (Boston, MA)_
 ![](https://img.shields.io/badge/Web-DreamWeaver-ff0000)
 
 ![](https://img.shields.io/badge/Tools-Git-00ffff)
-![](https://img.shields.io/badge/Tools-Github-00ffff)
+![](https://img.shields.io/badge/Tools-GitHub-00ffff)
 ![](https://img.shields.io/badge/Tools-gdb-00ffff)
 ![](https://img.shields.io/badge/Tools-cgdb-00ffff)
 ![](https://img.shields.io/badge/Tools-nco-00ffff)
@@ -114,6 +115,7 @@ _Center for Space Physics, Boston University (Boston, MA)_
 * Received the Boston University Outstanding Teaching Fellow Award (1994).
 * Admitted to Phi Beta Kappa, Alpha of Ohio (1991).
 * Received a Case Alumni Association Scholarship (1989-1991).
+- Received the J. J. Nassau Prize for Outstanding Senior in Astronomy (1991).
 * Received the Abraham Lincoln Fuller Prize for Excellence in the Study of Latin (1989).
 
 # Five Recent Publications
