@@ -30,3 +30,12 @@ responsible for:
   - Software engineering
   - Testing and validation
   - Documentation
+
+
+<br/>
+<img src="/images/qfyaml.png" width="150" height="150" alt="KPP">
+
+[qfyaml: Quick Fortran YAML parser](https://qfyaml.readthedocs.io)
+
+I created the Quick Fortran YAML parser for use with GEOS-Chem.  It
+can parse most of the YAML syntax (including YAML anchors).
