@@ -12,19 +12,14 @@ redirect_from:
 
 <big><em>Senior Software Engineer</em></big><br><em>Harvard John A. Paulson School of Engineering and Applied Sciences</em>
 
-<table>
+<table class="no-border">
  <tr>
-  <td cellpadding="5" align="center" width="33%">
-   <a href="https://www.seas.harvard.edu">
-     <img src="images/HSEAS_Seal.jpg" width="130" height="150" alt="SEAS logo">
-   </a>
-  </td>
-  <td cellpadding="5" align="center" width="34%">
+  <td cellpadding="0" align="center" width="200">
    <a href="http://geos-chem.org">
-    <img src="images/GEOS-Chem_Logo_Square.png" width="200"  height="200" alt="GEOS-Chem logo">
+    <img src="images/GEOS-Chem_Logo_Square.png" width="200" height="200" alt="GEOS-Chem logo">
    </a>
   </td>
-  <td cellpadding="5" align="center" width="33%">
+  <td cellpadding="0" align="center" width="200">
    <a href="https://acmg.seas.harvard.edu" align="center"> 
     <img src="images/logo_medium.jpg" width="170" height="170" hspace="30" alt="ACMG logo">
    </a>
