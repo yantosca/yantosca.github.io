@@ -1,0 +1,36 @@
+# Auto detect text files and normalize line endings to LF in the repository
+* text=auto eol=lf
+
+# Explicit text types
+*.md      text
+*.markdown text
+*.yml     text
+*.yaml    text
+*.html    text
+*.scss    text
+*.css     text
+*.js      text
+*.rb      text
+*.py      text
+*.ipynb   text -diff
+*.svg     text
+
+# Binary types - do not diff or modify line endings
+*.png     binary
+*.jpg     binary
+*.JPG     binary
+*.jpeg    binary
+*.gif     binary
+*.webp    binary
+*.ico     binary
+*.pdf     binary
+*.woff    binary
+*.woff2   binary
+*.ttf     binary
+*.eot     binary
+
+# Vendored/minified front-end assets - exclude from GitHub language stats and diffs
+assets/js/vendor/** linguist-vendored
+assets/js/plugins/** linguist-vendored
+assets/js/main.min.js linguist-generated -diff
+_sass/vendor/** linguist-vendored

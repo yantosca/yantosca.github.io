@@ -44,7 +44,7 @@ _Center for Space Physics, Boston University (Boston, MA)_
 * Creation of automatic forecasting and hindcasting systems to support of aircraft field campaigns
 * Providing documentation and technical support for CTM users
 * Co-developer of the GCPy (Python) and GAMAP (IDL) packages for visualization of CTM output
-	
+
 # Technology and Tools
 
 ![](https://img.shields.io/badge/OS-Linux-informational?style=flat&logo=Linux&logoColor=white&color=0000ff)
