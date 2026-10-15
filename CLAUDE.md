@@ -19,7 +19,8 @@ bundle exec jekyll serve          # build + serve at http://localhost:4000, rebu
 bundle exec jekyll serve --config _config.yml,_config.dev.yml   # serve with local dev overrides (analytics off, expanded CSS)
 bundle exec jekyll build          # one-off build to _site/ without serving
 ```
-There are no automated tests, linters, or CI in this repo — verification is "does the site build and
+`_config.yml` is not hot-reloaded, so restart the server after editing it. (The README's `jekyll liveserve`
+comes from the `hawkins` gem.) There are no automated tests, linters, or CI in this repo — verification is "does the site build and
 does the page look right in a browser".
 
 Front-end asset build (rarely needed — only if editing `assets/js/_main.js` or vendor JS):
@@ -55,6 +56,8 @@ configured in `_config.yml` under `collections:` with matching `defaults:` block
 | teaching | `_teaching/` | `single` | |
 | videos | `_videos/` | `video` | |
 
+`projects` is also declared as a collection, but there is no `_projects/` folder; the Projects page is `_pages/projects.md`.
+
 Adding new content almost always means adding a new Markdown file with YAML front matter to the
 appropriate collection folder (following the pattern of existing files there), not writing Ruby/Liquid
 code.
@@ -79,3 +82,11 @@ and the standalone Leaflet map under `talkmap/`, respectively.
 
 **Static assets:** images in `images/`, downloadable files (PDFs etc.) in `files/` — anything placed in
 `files/` is served at `https://yantosca.github.io/files/<name>`.
+
+## Working-tree notes
+
+- `_sass/custom.scss`, `_sass/custom.scss.~1~`, `_sass/custom.scss.~2~` and `assets/css/was.main.scss` are untracked
+  work in progress or backups, and `assets/css/main.scss` does not import `custom`. Don't delete or commit them without asking.
+- `CHANGELOG.md` and `package.json` come from upstream Minimal Mistakes; they are not this site's history.
+- `_pages/cv.md` is edited by hand and updated often.
+- Commit messages are short imperative sentences, e.g. "Add QFYAML to projects page".
