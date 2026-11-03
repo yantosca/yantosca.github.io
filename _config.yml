@@ -74,7 +74,7 @@ social:
 
 # Analytics
 analytics:
-  provider               :  "google-universal" # false (default), "google", "google-universal", "custom"
+  provider               :  false # false (default), "google", "google-universal", "custom"
   google:
     tracking_id          :
 
@@ -116,18 +116,23 @@ exclude:
   - .jekyll-assets-cache
   - .sass-cache
   - CHANGELOG
+  - CLAUDE.md
+  - CONTRIBUTING.md
   - Capfile
   - Gemfile
   - Gruntfile.js
   - LICENSE
   - README
   - Rakefile
+  - SECURITY.md
   - assets/js/_main.js
   - assets/js/plugins
   - assets/js/vendor
   - config
   - gulpfile.js
   - log
+  - _portfolio
+  - markdown_generator
   - node_modules
   - package.json
   - tmp
@@ -161,14 +166,8 @@ kramdown:
 
 # Collections
 collections:
-  projects:
-    output: true
-    permalink: /:collection/:path/
   publications:
     output: true
-    permalink: /:collection/:path/
-  talks:
-    output: false
     permalink: /:collection/:path/
   teaching:
     output: true
@@ -207,14 +206,6 @@ defaults:
       author_profile: true
       share: true
       comments: true
-  # _talks
-  - scope:
-      path: ""
-      type: talks
-    values:
-      layout: talk
-      author_profile: true
-      share: true
   # _videos
   - scope:
       path: ""
