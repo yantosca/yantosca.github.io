@@ -1,5 +1,5 @@
 ---
-title: "Prescribed burns as a tool to mitigate future wildfire smoke exposure: Lessons for states and rural environmental justice communities" 
+title: "Prescribed burns as a tool to mitigate future wildfire smoke exposure: Lessons for states and rural environmental justice communities"
 collection: publications
 permalink: /publication/2023-prec-burns.html
 redirect_from:
