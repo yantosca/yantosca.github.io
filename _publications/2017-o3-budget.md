@@ -1,7 +1,7 @@
 ---
 title: "Global budget of tropospheric ozone: Evaluating recent model advances with satellite (OMI), aircraft (IAGOS), and ozonesonde observations"
 collection: publications
-permalink: /publication/2021-obspack.html
+permalink: /publication/2017-o3-budget.html
 date: 2017-08-16
 venue: 'Atmos. Environ.'
 paperurl: http://dx.doi.org/10.1016/j.atmosenv.2017.08.036
