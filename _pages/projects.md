@@ -33,7 +33,7 @@ responsible for:
 
 
 <br/>
-<img src="/images/qfyaml.png" width="150" height="150" alt="KPP">
+<img src="/images/qfyaml.png" width="150" height="150" alt="QFYAML">
 
 [qfyaml: Quick Fortran YAML parser](https://qfyaml.readthedocs.io)
 

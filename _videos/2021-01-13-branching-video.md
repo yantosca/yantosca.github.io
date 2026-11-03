@@ -1,5 +1,5 @@
 ---
-title: "GEOS-Chem 13.0.0: Managing Branches beteween Superproject and Submodules"
+title: "GEOS-Chem 13.0.0: Managing Branches between Superproject and Submodules"
 collection: videos
 type: "Youtube Video tutorial"
 permalink: /videos/2021-01-13-branching-video
@@ -14,4 +14,4 @@ GEOS-Chem 13.0.0 now uses lightweight wrappers (GCClassic, GCHP) to envelop the 
   2. Creating a branch in the GEOS-Chem "science codebase" submodule in which you can place your own source code modifications; 
   3. Creating a corresponding branch in the GCClassic superproject that will point to the branch you created in the GEOS-Chem submodule; 
   4. Switching between branches in the GCClassic superproject folder; and 
-  5. Using the git submodule update command to fetch commits from the submodules.We demonstrate how to download the GEOS-Chem "Classic" source code and how to use a "dry-run" to download the required input files (e.g. met fields, emissions) to your computer system.  This video applies to GEOS-Chem 13.2.1 and later versions.
+  5. Using the git submodule update command to fetch commits from the submodules.

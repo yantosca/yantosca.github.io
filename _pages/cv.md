@@ -38,10 +38,10 @@ _Center for Space Physics, Boston University (Boston, MA)_
 
 # Expertise
 * 30+ years of experience in computer programming, data analysis, and visualization
-* Implementation of chemical tracer models (CTMs) for atmospheric chemistry applications
+* Implementation of chemical transport models (CTMs) for atmospheric chemistry applications
 * Integration of CTMs with Earth System Models (ESMs)
 * Benchmarking CTM performance with standard simulations
-* Creation of automatic forecasting and hindcasting systems to support of aircraft field campaigns
+* Creation of automatic forecasting and hindcasting systems in support of aircraft field campaigns
 * Providing documentation and technical support for CTM users
 * Co-developer of the GCPy (Python) and GAMAP (IDL) packages for visualization of CTM output
 
@@ -88,15 +88,15 @@ _Center for Space Physics, Boston University (Boston, MA)_
 ![](https://img.shields.io/badge/Doc-ReST-00aa00)
 ![](https://img.shields.io/badge/Doc-MarkDown-00aa00)
 ![](https://img.shields.io/badge/Doc-MediaWiki-00aa00)
-![](https://img.shields.io/badge/Doc-DocuWiki-00aa00)
+![](https://img.shields.io/badge/Doc-DokuWiki-00aa00)
 ![](https://img.shields.io/badge/Doc-pydoc-00aa00)
-![](https://img.shields.io/badge/Doc-Org Mode-00aa00)
+![](https://img.shields.io/badge/Doc-Org%20Mode-00aa00)
 
 ![](https://img.shields.io/badge/Editor-Emacs-ff00ff)
 ![](https://img.shields.io/badge/Editor-nano-ff00ff)
 ![](https://img.shields.io/badge/Editor-Notepad++-ff00ff)
 
-![](https://img.shields.io/badge/Apps-Google Docs-00ffff)
+![](https://img.shields.io/badge/Apps-Google%20Docs-00ffff)
 ![](https://img.shields.io/badge/Apps-Word-00ffff)
 ![](https://img.shields.io/badge/Apps-Excel-00ffff)
 ![](https://img.shields.io/badge/Apps-PowerPoint-00ffff)
@@ -108,18 +108,18 @@ _Center for Space Physics, Boston University (Boston, MA)_
 * Co-chairs the GEOS-Chem Software Engineering Working Group.
 * Serves as Co-Investigator on several proposals.
 * Collaborates on various scientific projects.
-* Provides feedback and shares best practices with colleagues at other institutions
+* Provides feedback and shares best practices with colleagues at other institutions.
   * EPA, NASA, NCAR, NOAA, + universities
 
 # Honors
 * Received the Harvard John A. Paulson School of Engineering Dean's
-  Distinction Award (2026). 
+  Distinction Award (2026).
 * Received the NASA Group Achievement Award for the ARCTAS mission (2009).
 * Admitted to Pi Lambda Theta (1996).
 * Received the Boston University Outstanding Teaching Fellow Award (1994).
 * Admitted to Phi Beta Kappa, Alpha of Ohio (1991).
+* Received the J. J. Nassau Prize for Outstanding Senior in Astronomy (1991).
 * Received a Case Alumni Association Scholarship (1989-1991).
-- Received the J. J. Nassau Prize for Outstanding Senior in Astronomy (1991).
 * Received the Abraham Lincoln Fuller Prize for Excellence in the Study of Latin (1989).
 
 # Five Recent Publications
@@ -127,7 +127,7 @@ _Center for Space Physics, Boston University (Boston, MA)_
   <ul>{% for post in recent_pubs limit: 5 %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
-  
+
 # Service and Leadership
 * [Focolare Movement](https://focolare.us)
   * Volunteer of God (vocation)
@@ -136,7 +136,7 @@ _Center for Space Physics, Boston University (Boston, MA)_
 
 # Personal
 * Citizenship: United States
-* Languages: 
-  * English (native) 
-  * Italian (fluent) 
+* Languages:
+  * English (native)
+  * Italian (fluent)
   * Neapolitan (can understand)

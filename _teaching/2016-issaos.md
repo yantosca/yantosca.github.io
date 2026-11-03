@@ -12,7 +12,7 @@ location: "L'Aquila, Italy"
 
 Presented the following lectures:
 
-  1. Coding best practices: Auto-documentation and version control"
+  1. "Coding best practices: Auto-documentation and version control"
 
   2. "Speeding up your Earth System Science applications with OpenMP parallelization"
 

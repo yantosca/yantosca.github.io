@@ -16,12 +16,12 @@ redirect_from:
  <tr>
   <td cellpadding="0" align="center" width="200">
    <a href="http://geos-chem.org">
-    <img src="images/GEOS-Chem_Logo_Square.png" width="200" height="200" alt="GEOS-Chem logo">
+    <img src="/images/GEOS-Chem_Logo_Square.png" width="200" height="200" alt="GEOS-Chem logo">
    </a>
   </td>
   <td cellpadding="0" align="center" width="200">
    <a href="https://acmg.seas.harvard.edu" align="center"> 
-    <img src="images/logo_medium.jpg" width="170" height="170" hspace="30" alt="ACMG logo">
+    <img src="/images/logo_medium.jpg" width="170" height="170" hspace="30" alt="ACMG logo">
    </a>
   </td>
  </tr>

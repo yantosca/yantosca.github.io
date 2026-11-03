@@ -15,11 +15,11 @@ Growing up, I used to live in my maternal grandparents' house in the Orient Heig
 
 I've taken several Italian-language courses with [John Jordan's Italian Program](http://italianprogram.com) and now can speak Italian fluently. I love watching Italian TV and film, and also enjoy Italian pop music and Neapolitan folk music.
 
-![Patriots](/images/patriots_logo.jpg){:style="float:left; margin-right:25px; margin-top:5px; margin-left:25px height:200px; width:200px"}
+![Patriots](/images/patriots_logo.jpg){:style="float:left; margin-right:25px; margin-top:5px; margin-left:25px; height:200px; width:200px"}
 
-In the fall & winter, I spend a lot of time following pro football ([Go Patriots!](https://patriots.com)). My brother Tony "The Prophet" is a lifelong NY Giants fan and pro football blogger ([@TonytheProphet](https://twitter.com/TonytheProphet) on Twitter).  This football schism between the Patriots and Giants in the Yantosca family sometimes leads to anguish when our teams play against each other (see: Super Bowls XLII and XLVI).  But in the summer it's baseball season ([Go Red Sox!](https://redsox.com)) That's one thing we all agree upon!
+In the fall & winter, I spend a lot of time following pro football ([Go Patriots!](https://patriots.com)). My brother Tony "The Prophet" is a lifelong NY Giants fan and pro football blogger ([@TonytheProphet](https://twitter.com/TonytheProphet) on Twitter).  This football schism between the Patriots and Giants in the Yantosca family sometimes leads to anguish when our teams play against each other (see: Super Bowls XLII and XLVI).  But in the summer it's baseball season ([Go Red Sox!](https://redsox.com)).  That's one thing we all agree upon!
 
-![Linux](/images/linux.jpg){:style="float:right; margin-right:25px; margin-left:25px; margin-bottom=40px"}
+![Linux](/images/linux.jpg){:style="float:right; margin-right:25px; margin-left:25px; margin-bottom:40px"}
 
 Recently, I taught myself how to install a couple of different flavors of Linux onto older laptops.  I enjoy the challenge of reviving old machines.  The laptop I used to create this page now runs Manjaro and uses half of the memory that it did when it was a Windows 10 PC.  They say that "Linux is only free if you don't value your time", and maybe that's true.  Nevertheless, I have been able to learn a lot in a very short time by trial-and-error, and researching the Internet for tips and tricks.  So I think it is time well spent.  See [my blog](/posts/) for some of my Linux posts.
 
