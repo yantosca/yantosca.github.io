@@ -1,7 +1,9 @@
 ---
 title: "Prescribed burns as a tool to mitigate future wildfire smoke exposure: Lessons for states and rural environmental justice communities" 
 collection: publications
-permalink: /publication/2024-prec-burns.html
+permalink: /publication/2023-prec-burns.html
+redirect_from:
+  - /publication/2024-prec-burns.html
 date: 2023-06-14
 venue: "Earth's Future"
 paperurl: https://doi.org/10.1029/2022EF003468
