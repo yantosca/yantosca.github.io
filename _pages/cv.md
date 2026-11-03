@@ -123,7 +123,8 @@ _Center for Space Physics, Boston University (Boston, MA)_
 * Received the Abraham Lincoln Fuller Prize for Excellence in the Study of Latin (1989).
 
 # Five Recent Publications
-  <ul>{% for post in site.publications reversed limit: 5 offset: 11 %}
+  {% assign recent_pubs = site.publications | sort: 'date' | reverse %}
+  <ul>{% for post in recent_pubs limit: 5 %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
   
