@@ -112,8 +112,8 @@ _Center for Space Physics, Boston University (Boston, MA)_
   * EPA, NASA, NCAR, NOAA, + universities
 
 # Honors
-* Received the Harvard John A. Paulson School of Engineering Dean's
-  Distinction Award (2026).
+* Received the Harvard John A. Paulson School of Engineering and Applied
+  Sciences Dean's Distinction Award (2026).
 * Received the NASA Group Achievement Award for the ARCTAS mission (2009).
 * Admitted to Pi Lambda Theta (1996).
 * Received the Boston University Outstanding Teaching Fellow Award (1994).
