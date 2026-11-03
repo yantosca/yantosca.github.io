@@ -6,7 +6,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 `yantosca.github.io` — Bob Yantosca's personal academic website, built on the **academicpages** Jekyll
 template (a fork of the **Minimal Mistakes** theme), hosted via GitHub Pages. Content (CV, publications,
-talks, teaching, projects, blog posts) lives as Markdown/YAML front matter in collection folders; the
+teaching, videos, blog posts) lives as Markdown/YAML front matter in collection folders; the
 theme (in `_layouts`, `_includes`, `_sass`, `assets`) is mostly upstream template code that should rarely
 need changing.
 
@@ -30,17 +30,14 @@ npm run build:js     # runs uglify to regenerate assets/js/main.min.js from asse
 npm run watch:js      # rebuild main.min.js on change
 ```
 
-Publication/talk markdown generation (one-off data import helpers, not part of the normal build):
+Publication markdown generation (one-off data import helpers, not part of the normal build):
 ```bash
 cd markdown_generator
-python pubsFromBib.py     # or run the .ipynb equivalents (PubsFromBib.ipynb, publications.ipynb, talks.ipynb)
+python pubsFromBib.py     # or run the .ipynb equivalents (PubsFromBib.ipynb, publications.ipynb)
 ```
-These read a `.bib`/`.tsv` file and emit one Markdown file per entry into `_publications/` or `_talks/`.
-
-Talk map generation (optional, only if `talkmap_link: true` in `_config.yml`):
-```bash
-cd _talks && python ../talkmap.py    # scrapes location from each _talks/*.md, geocodes it, writes talkmap/ data
-```
+These read a `.bib`/`.tsv` file and emit one Markdown file per entry into `_publications/`. The
+`talks.py`/`talks.ipynb` halves target a `_talks/` folder that does not exist here. `markdown_generator/`
+is excluded from the build in `_config.yml`, so nothing in it is published.
 
 ## Architecture
 
@@ -52,11 +49,12 @@ configured in `_config.yml` under `collections:` with matching `defaults:` block
 | pages | `_pages/` | `single` | CV, About, Projects, Publications index, Teaching, Personal, etc. |
 | posts | `_posts/` | `single` | Blog entries, dated filenames |
 | publications | `_publications/` | `single` | One file per paper, `output: true` |
-| talks | `_talks/` | `talk` | `output: false` — rendered only via the talks listing page, not individual URLs |
 | teaching | `_teaching/` | `single` | |
 | videos | `_videos/` | `video` | |
 
-`projects` is also declared as a collection, but there is no `_projects/` folder; the Projects page is `_pages/projects.md`.
+There is no `_projects/` folder and no `projects` collection; the Projects page is just `_pages/projects.md`.
+The `talks` and `projects` collection declarations, the `/talks/` and `/talkmap.html` pages and the
+`talkmap/` tooling were all removed — they were empty academicpages scaffolding.
 
 Adding new content almost always means adding a new Markdown file with YAML front matter to the
 appropriate collection folder (following the pattern of existing files there), not writing Ruby/Liquid
@@ -76,12 +74,12 @@ directly. Several `_includes/*` names are directories with a `custom.html` overr
 head/footer injections instead of editing the shared theme files. Styling is Sass under `_sass/`,
 compiled by Jekyll's built-in Sass support (`sass:` block in `_config.yml`, compressed in prod).
 
-**`markdown_generator/`** and **`talkmap.py`** are standalone one-off Python/Jupyter data-import tools,
-not part of the Jekyll build — they generate the Markdown files that live in `_publications/`/`_talks/`
-and the standalone Leaflet map under `talkmap/`, respectively.
+**`markdown_generator/`** holds standalone one-off Python/Jupyter data-import tools that generate the
+Markdown files in `_publications/`. They are not part of the Jekyll build and are excluded from it.
 
 **Static assets:** images in `images/`, downloadable files (PDFs etc.) in `files/` — anything placed in
-`files/` is served at `https://yantosca.github.io/files/<name>`.
+`files/` is served at `https://yantosca.github.io/files/<name>`. `files/` is currently absent because it
+held only the template's placeholder PDFs; recreate it and drop files in, `_config.yml` still includes it.
 
 ## Working-tree notes
 
@@ -89,4 +87,8 @@ and the standalone Leaflet map under `talkmap/`, respectively.
   work in progress or backups, and `assets/css/main.scss` does not import `custom`. Don't delete or commit them without asking.
 - `CHANGELOG.md` and `package.json` come from upstream Minimal Mistakes; they are not this site's history.
 - `_pages/cv.md` is edited by hand and updated often.
+- `_includes/seo.html` diverges from upstream academicpages by one line: the `{% if page.title %}`
+  guard on line 9 is `{% if page.title and page.title != site.title %}`. Without it the home page,
+  whose own title matches `site.title` ("Bob Yantosca"), renders `<title>Bob Yantosca - Bob Yantosca</title>`.
+  There is no `custom.html` override slot for `seo.html`, so re-apply this if the theme is ever updated.
 - Commit messages are short imperative sentences, e.g. "Add QFYAML to projects page".
